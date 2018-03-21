@@ -8,7 +8,6 @@ english_stemmer=nltk.stem.SnowballStemmer('english')
 
 from sklearn.preprocessing import LabelEncoder
 from sklearn.feature_selection.univariate_selection import SelectKBest, chi2, f_classif
-from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 import sys
 import os
